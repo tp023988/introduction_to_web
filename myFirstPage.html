@@ -5,11 +5,33 @@ This website shows the schedule of introduction to web class of IT-1916 group
 <html>
 <head>
 <link rel="stylesheet" href="style.css"></link>
+<script src="javascript.js"></script>
 <meta charset="utf-8">
 <title>IT 1916</title>
+<script>
+  //alert("script works!");
+  function function_1()
+  {
+    //console.log("button 1 works")
+    let oldText = document.querySelector("h1").innerHTML
+    if(oldText.includes("C1 358"))
+    {
+        document.querySelector("h1").innerHTML = "introduction to web (C1 352)"
+        //document.querySelector("h1").innerHTML = oldText + "(C1 352)"
+    }
+    else
+    {
+        console.log("button works, condition false")
+    }
+    alert("button 1 works!");
+  }
+</script>
 </head>
 <body>
 <h1>introduction to web (<b>C1 358</b>)</h1>
+<hr>
+  <button type="button" onclick="function_1()">button 1</button>
+  <button type="button" onclick="function_2()">button 2</button>
 <hr>
 <h2><a href="#L1,2">Lesson 1</a></h2>
 <p class="schedule">
@@ -226,6 +248,22 @@ This website shows the schedule of introduction to web class of IT-1916 group
   <p>&nbsp</p>
   <p>&nbsp</p>
   <p>&nbsp</p>
+  <p class="image_p">
+    <img class="imageClass" src="2.jpg" alt="Nature" title="Qaiyndy lake" width="384" height="256" />
+    In an especially favorable Mother Nature to the Kazakh land. She gave generously of her bowels minerals. It is common knowledge now that there is no element of the periodic table, which could not be detected in the mountains or the steppes of Kazakhstan.
+    However, these untold riches for centuries were unknown to the world. Not only deep ¬ lateral hidden underground wealth, but even that can be seen with the naked eye, did not notice the rare foreigners, travelers, who at various times and for various reasons, been in our Kazakhstan. In his diaries and books they wrote about him as a stern, lean on vegetation region of endless steppes and huge sand masses.
+    &copy<a href="https://www.tourasia.kz/interesting/nature-of-kazakhstan/">Nature of Kazakhstan</a>
+    <br style="clear:both"/>
+  </p>
+  <p class="image_p">
+    <img class="imageClass" src="4.jpg" alt="Nature" title="Big Almaty Lake" width="400" height="104" />
+    Aktau Beach :
+    It is hard to find such a magnificent beach in Kazakhstan but you will be glad as there is one. This beach has both rocky hills and sandy beaches along the seaside. There are also several modern resorts on the coast to the south of the city.
+    Mountain-piala Sherkala :
+    Aktau has its own mountain canyons known as Sherkala. It looks more like a Hidden Beast but is also resembles a bowl and a tent. You can feel yourself standing on top of the world while at Sherkal.
+    &copy<a href="https://www.minzifatravel.com/kazakhstan-nature">Nature of Kazakhstan</a>
+    <br style="clear:both"/>
+  </p>
 </div>
 </body>
 </html>
