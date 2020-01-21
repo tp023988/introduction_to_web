@@ -2,3 +2,29 @@ table
 {
 background-color: yellow;
 }
+td, th
+{
+   border-bottom:2px solid black;
+}
+
+.schedule
+{
+	color: blue;
+}
+
+.imageClass
+{
+  border-style: dotted;
+  border-width: 3px;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+}
+
+/*
+.image_p .imageClass
+{
+  align: middle;
+  margin:0 auto;
+}
+*/
